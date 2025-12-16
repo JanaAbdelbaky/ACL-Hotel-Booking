@@ -1,0 +1,191 @@
+{
+  "1": {
+    "tests": [
+      {
+        "model_key": "1",
+        "prompt": "CONTEXT:\n1. hotel_name: L'\u00c9toile Palace | city: Paris | star_rating: 5 | luxury: yes\n\nPERSONA:\nYou are a helpful travel assistant specializing in hotels and visa information. You ONLY answer based on verified facts from the knowledge graph. You never invent information.You never search the internet or Google for information or recommendations.\n\nTASK:\nAnswer the user's question strictly using ONLY the provided context facts. If the context does not contain the answer, say: 'The required information is not in the knowledge graph.'\n\nQUESTION:\nRecommend a luxury 5-star hotel in Paris.\n\nANSWER:",
+        "answer": "L'\u00c9toile Palace is a luxury 5-star hotel in Paris. \n",
+        "time_s": 1.4204421043395996,
+        "counts": {
+          "baseline": 1,
+          "embedding": 1
+        },
+        "pass": true
+      },
+      {
+        "model_key": "1",
+        "prompt": "CONTEXT:\n1. hotel_name: Kyo-to Grand | city: Tokyo | cleanliness: excellent\n\nPERSONA:\nYou are a helpful travel assistant specializing in hotels and visa information. You ONLY answer based on verified facts from the knowledge graph. You never invent information.You never search the internet or Google for information or recommendations.\n\nTASK:\nAnswer the user's question strictly using ONLY the provided context facts. If the context does not contain the answer, say: 'The required information is not in the knowledge graph.'\n\nQUESTION:\nWhich hotel in Tokyo has excellent cleanliness?\n\nANSWER:",
+        "answer": "The Kyo-to Grand in Tokyo has excellent cleanliness. \n",
+        "time_s": 0.7631304264068604,
+        "counts": {
+          "baseline": 1,
+          "embedding": 1
+        },
+        "pass": true
+      },
+      {
+        "model_key": "1",
+        "prompt": "CONTEXT:\n1. hotel_name: Colosseum Gardens | city: Rome | location: excellent\n\nPERSONA:\nYou are a helpful travel assistant specializing in hotels and visa information. You ONLY answer based on verified facts from the knowledge graph. You never invent information.You never search the internet or Google for information or recommendations.\n\nTASK:\nAnswer the user's question strictly using ONLY the provided context facts. If the context does not contain the answer, say: 'The required information is not in the knowledge graph.'\n\nQUESTION:\nSuggest a hotel with the best location in Rome.\n\nANSWER:",
+        "answer": "The hotel_name: Colosseum Gardens is located in Rome and has an excellent location. \n",
+        "time_s": 0.4631068706512451,
+        "counts": {
+          "baseline": 1,
+          "embedding": 1
+        },
+        "pass": true
+      },
+      {
+        "model_key": "1",
+        "prompt": "CONTEXT:\n1. hotel_name: Nile Grandeur | city: Cairo | star_rating: 5\n\nPERSONA:\nYou are a helpful travel assistant specializing in hotels and visa information. You ONLY answer based on verified facts from the knowledge graph. You never invent information.You never search the internet or Google for information or recommendations.\n\nTASK:\nAnswer the user's question strictly using ONLY the provided context facts. If the context does not contain the answer, say: 'The required information is not in the knowledge graph.'\n\nQUESTION:\nFind a top-rated hotel in Cairo.\n\nANSWER:",
+        "answer": "The Nile Grandeur is a 5-star hotel in Cairo and is considered a top-rated hotel. \n",
+        "time_s": 0.4767730236053467,
+        "counts": {
+          "baseline": 1,
+          "embedding": 1
+        },
+        "pass": true
+      },
+      {
+        "model_key": "1",
+        "prompt": "CONTEXT:\n1. hotel_name: Canal House Grand | city: Amsterdam | comfort: high\n\nPERSONA:\nYou are a helpful travel assistant specializing in hotels and visa information. You ONLY answer based on verified facts from the knowledge graph. You never invent information.You never search the internet or Google for information or recommendations.\n\nTASK:\nAnswer the user's question strictly using ONLY the provided context facts. If the context does not contain the answer, say: 'The required information is not in the knowledge graph.'\n\nQUESTION:\nWhich hotel in Amsterdam offers high comfort?\n\nANSWER:",
+        "answer": "Canal House Grand \n",
+        "time_s": 0.6515767574310303,
+        "counts": {
+          "baseline": 1,
+          "embedding": 1
+        },
+        "pass": true
+      }
+    ],
+    "summary": {
+      "accuracy_pct": 100.0,
+      "total_time_s": 3.775029182434082
+    }
+  },
+  "2": {
+    "tests": [
+      {
+        "model_key": "2",
+        "prompt": "CONTEXT:\n1. hotel_name: L'\u00c9toile Palace | city: Paris | star_rating: 5 | luxury: yes\n\nPERSONA:\nYou are a helpful travel assistant specializing in hotels and visa information. You ONLY answer based on verified facts from the knowledge graph. You never invent information.You never search the internet or Google for information or recommendations.\n\nTASK:\nAnswer the user's question strictly using ONLY the provided context facts. If the context does not contain the answer, say: 'The required information is not in the knowledge graph.'\n\nQUESTION:\nRecommend a luxury 5-star hotel in Paris.\n\nANSWER:",
+        "answer": "L'\u00c9toile Palace",
+        "time_s": 2.415172815322876,
+        "counts": {
+          "baseline": 1,
+          "embedding": 1
+        },
+        "pass": true
+      },
+      {
+        "model_key": "2",
+        "prompt": "CONTEXT:\n1. hotel_name: Kyo-to Grand | city: Tokyo | cleanliness: excellent\n\nPERSONA:\nYou are a helpful travel assistant specializing in hotels and visa information. You ONLY answer based on verified facts from the knowledge graph. You never invent information.You never search the internet or Google for information or recommendations.\n\nTASK:\nAnswer the user's question strictly using ONLY the provided context facts. If the context does not contain the answer, say: 'The required information is not in the knowledge graph.'\n\nQUESTION:\nWhich hotel in Tokyo has excellent cleanliness?\n\nANSWER:",
+        "answer": "Kyo-to Grand",
+        "time_s": 1.1498539447784424,
+        "counts": {
+          "baseline": 1,
+          "embedding": 1
+        },
+        "pass": true
+      },
+      {
+        "model_key": "2",
+        "prompt": "CONTEXT:\n1. hotel_name: Colosseum Gardens | city: Rome | location: excellent\n\nPERSONA:\nYou are a helpful travel assistant specializing in hotels and visa information. You ONLY answer based on verified facts from the knowledge graph. You never invent information.You never search the internet or Google for information or recommendations.\n\nTASK:\nAnswer the user's question strictly using ONLY the provided context facts. If the context does not contain the answer, say: 'The required information is not in the knowledge graph.'\n\nQUESTION:\nSuggest a hotel with the best location in Rome.\n\nANSWER:",
+        "answer": "Colosseum Gardens",
+        "time_s": 1.1701512336730957,
+        "counts": {
+          "baseline": 1,
+          "embedding": 1
+        },
+        "pass": true
+      },
+      {
+        "model_key": "2",
+        "prompt": "CONTEXT:\n1. hotel_name: Nile Grandeur | city: Cairo | star_rating: 5\n\nPERSONA:\nYou are a helpful travel assistant specializing in hotels and visa information. You ONLY answer based on verified facts from the knowledge graph. You never invent information.You never search the internet or Google for information or recommendations.\n\nTASK:\nAnswer the user's question strictly using ONLY the provided context facts. If the context does not contain the answer, say: 'The required information is not in the knowledge graph.'\n\nQUESTION:\nFind a top-rated hotel in Cairo.\n\nANSWER:",
+        "answer": "Nile Grandeur",
+        "time_s": 1.2766363620758057,
+        "counts": {
+          "baseline": 1,
+          "embedding": 1
+        },
+        "pass": true
+      },
+      {
+        "model_key": "2",
+        "prompt": "CONTEXT:\n1. hotel_name: Canal House Grand | city: Amsterdam | comfort: high\n\nPERSONA:\nYou are a helpful travel assistant specializing in hotels and visa information. You ONLY answer based on verified facts from the knowledge graph. You never invent information.You never search the internet or Google for information or recommendations.\n\nTASK:\nAnswer the user's question strictly using ONLY the provided context facts. If the context does not contain the answer, say: 'The required information is not in the knowledge graph.'\n\nQUESTION:\nWhich hotel in Amsterdam offers high comfort?\n\nANSWER:",
+        "answer": "Canal House Grand",
+        "time_s": 1.1348192691802979,
+        "counts": {
+          "baseline": 1,
+          "embedding": 1
+        },
+        "pass": true
+      }
+    ],
+    "summary": {
+      "accuracy_pct": 100.0,
+      "total_time_s": 7.146633625030518
+    }
+  },
+  "3": {
+    "tests": [
+      {
+        "model_key": "3",
+        "prompt": "CONTEXT:\n1. hotel_name: L'\u00c9toile Palace | city: Paris | star_rating: 5 | luxury: yes\n\nPERSONA:\nYou are a helpful travel assistant specializing in hotels and visa information. You ONLY answer based on verified facts from the knowledge graph. You never invent information.You never search the internet or Google for information or recommendations.\n\nTASK:\nAnswer the user's question strictly using ONLY the provided context facts. If the context does not contain the answer, say: 'The required information is not in the knowledge graph.'\n\nQUESTION:\nRecommend a luxury 5-star hotel in Paris.\n\nANSWER:",
+        "answer": " Based on the provided context, I recommend L'\u00c9toile Palace, a luxury 5-star hotel located in Paris.",
+        "time_s": 2.8586432933807373,
+        "counts": {
+          "baseline": 1,
+          "embedding": 1
+        },
+        "pass": true
+      },
+      {
+        "model_key": "3",
+        "prompt": "CONTEXT:\n1. hotel_name: Kyo-to Grand | city: Tokyo | cleanliness: excellent\n\nPERSONA:\nYou are a helpful travel assistant specializing in hotels and visa information. You ONLY answer based on verified facts from the knowledge graph. You never invent information.You never search the internet or Google for information or recommendations.\n\nTASK:\nAnswer the user's question strictly using ONLY the provided context facts. If the context does not contain the answer, say: 'The required information is not in the knowledge graph.'\n\nQUESTION:\nWhich hotel in Tokyo has excellent cleanliness?\n\nANSWER:",
+        "answer": " Kyo-to Grand in Tokyo is reported to have excellent cleanliness based on the provided context facts.",
+        "time_s": 1.9111382961273193,
+        "counts": {
+          "baseline": 1,
+          "embedding": 1
+        },
+        "pass": true
+      },
+      {
+        "model_key": "3",
+        "prompt": "CONTEXT:\n1. hotel_name: Colosseum Gardens | city: Rome | location: excellent\n\nPERSONA:\nYou are a helpful travel assistant specializing in hotels and visa information. You ONLY answer based on verified facts from the knowledge graph. You never invent information.You never search the internet or Google for information or recommendations.\n\nTASK:\nAnswer the user's question strictly using ONLY the provided context facts. If the context does not contain the answer, say: 'The required information is not in the knowledge graph.'\n\nQUESTION:\nSuggest a hotel with the best location in Rome.\n\nANSWER:",
+        "answer": " Based on the context provided, the hotel with an excellent location in Rome is the Colosseum Gardens.",
+        "time_s": 1.9595723152160645,
+        "counts": {
+          "baseline": 1,
+          "embedding": 1
+        },
+        "pass": true
+      },
+      {
+        "model_key": "3",
+        "prompt": "CONTEXT:\n1. hotel_name: Nile Grandeur | city: Cairo | star_rating: 5\n\nPERSONA:\nYou are a helpful travel assistant specializing in hotels and visa information. You ONLY answer based on verified facts from the knowledge graph. You never invent information.You never search the internet or Google for information or recommendations.\n\nTASK:\nAnswer the user's question strictly using ONLY the provided context facts. If the context does not contain the answer, say: 'The required information is not in the knowledge graph.'\n\nQUESTION:\nFind a top-rated hotel in Cairo.\n\nANSWER:",
+        "answer": " Based on the provided context, the top-rated hotel in Cairo is Nile Grandeur with a star rating of 5.",
+        "time_s": 1.9967126846313477,
+        "counts": {
+          "baseline": 1,
+          "embedding": 1
+        },
+        "pass": true
+      },
+      {
+        "model_key": "3",
+        "prompt": "CONTEXT:\n1. hotel_name: Canal House Grand | city: Amsterdam | comfort: high\n\nPERSONA:\nYou are a helpful travel assistant specializing in hotels and visa information. You ONLY answer based on verified facts from the knowledge graph. You never invent information.You never search the internet or Google for information or recommendations.\n\nTASK:\nAnswer the user's question strictly using ONLY the provided context facts. If the context does not contain the answer, say: 'The required information is not in the knowledge graph.'\n\nQUESTION:\nWhich hotel in Amsterdam offers high comfort?\n\nANSWER:",
+        "answer": " The Canal House Grand in Amsterdam, as stated in the context, offers high comfort.",
+        "time_s": 1.642258644104004,
+        "counts": {
+          "baseline": 1,
+          "embedding": 1
+        },
+        "pass": true
+      }
+    ],
+    "summary": {
+      "accuracy_pct": 100.0,
+      "total_time_s": 10.368325233459473
+    }
+  }
+}
