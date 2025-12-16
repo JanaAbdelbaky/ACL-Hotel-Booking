@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+
+# FAISS / embeddings (generated)
+*.index
+*.pkl
+
+# Streamlit
+.streamlit/
+
+# OS
+.DS_Store
